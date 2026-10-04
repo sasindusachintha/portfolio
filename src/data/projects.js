@@ -1,0 +1,148 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'ElectroQuote',
+    category: 'Mobile',
+    categoryLabel: 'Mobile Application',
+    description:
+      'A mobile quote-building application designed for electricians to replace handwritten material and quantity lists with a faster, more accurate digital workflow. Operates fully offline — no internet required for core functionality.',
+    longDescription:
+      'Built to solve a genuine pain point for electricians who rely on handwritten notes for quoting jobs. ElectroQuote streamlines the entire workflow from material selection through to professional A4 PDF quote generation.',
+    technologies: ['React Native', 'Expo', 'TypeScript', 'Expo Router', 'SQLite', 'Zustand'],
+    features: [
+      'Fully offline-first with local SQLite storage',
+      'Material, labour & assembly management',
+      'Automatic pricing calculations',
+      'Quote reference number generation',
+      'A4 PDF generation & WhatsApp sharing',
+      'Clean, trade-friendly UI',
+    ],
+    github: 'https://github.com/sasindusachintha/electroquote',
+    demo: null,
+    highlight: true,
+    icon: '⚡',
+    accentColor: '#f59e0b',
+    filterTags: ['Mobile'],
+  },
+  {
+    id: 2,
+    title: 'EduMind',
+    category: 'Full Stack',
+    categoryLabel: 'Full-Stack Education Platform',
+    description:
+      'A full-stack education management platform for managing students, faculty, attendance, and academic workflows. Includes both a React web dashboard and an Android mobile application.',
+    longDescription:
+      'EduMind demonstrates a complete, production-style full-stack architecture — React frontend, Node.js/Express REST API, MySQL database, JWT authentication, and a companion Android app.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express.js', 'MySQL', 'JWT', 'bcrypt', 'Android Java'],
+    features: [
+      'Role-based authentication (Admin, Faculty, Student)',
+      'QR code attendance system',
+      'Admin dashboard with analytics',
+      'Student & faculty management',
+      'OTP user verification',
+      'Android companion application',
+    ],
+    github: 'https://github.com/sasindusachintha/edumind-web',
+    demo: null,
+    highlight: true,
+    icon: '🎓',
+    accentColor: '#6366f1',
+    filterTags: ['Full Stack'],
+  },
+  {
+    id: 3,
+    title: 'BizShield AI',
+    category: 'AI / ML',
+    categoryLabel: 'AI-Powered Decision Platform',
+    description:
+      'An AI-powered business decision support platform that helps businesses respond intelligently to growth opportunities and crisis situations using multi-agent LLM reasoning.',
+    longDescription:
+      'BizShield AI uses a MERN stack with Groq API and LLM integration to deliver intelligent business analysis across two modes: Growth Mode for expansion planning, and Crisis Mode for rapid mitigation strategies.',
+    technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'bcrypt', 'Groq API', 'LLM Integration'],
+    features: [
+      'AI-powered growth & crisis analysis',
+      'Multi-agent LLM reasoning pipeline',
+      'Growth Mode & Crisis Mode',
+      'Business recommendation engine',
+      'Secure JWT authentication',
+      'Full MERN stack architecture',
+    ],
+    github: 'https://github.com/sasindusachintha/bizshield-ai',
+    demo: null,
+    highlight: true,
+    icon: '🤖',
+    accentColor: '#22d3ee',
+    filterTags: ['AI / ML', 'Full Stack'],
+  },
+  {
+    id: 4,
+    title: 'Virtual Mouse',
+    category: 'Computer Vision',
+    categoryLabel: 'Computer Vision',
+    description:
+      'A computer-vision-based virtual mouse that enables hands-free mouse control using real-time hand gesture recognition via webcam.',
+    longDescription:
+      'Uses OpenCV and computer vision techniques to track hand landmarks from a live webcam feed and map gestures to mouse cursor movement and click actions — no physical mouse required.',
+    technologies: ['Python', 'OpenCV', 'Computer Vision'],
+    features: [
+      'Real-time hand landmark tracking',
+      'Gesture-based cursor control',
+      'Click detection via finger gestures',
+      'Webcam-only — no additional hardware',
+    ],
+    github: 'https://github.com/sasindusachintha',
+    demo: null,
+    highlight: false,
+    icon: '👆',
+    accentColor: '#a78bfa',
+    filterTags: ['Computer Vision', 'AI / ML'],
+  },
+  {
+    id: 5,
+    title: 'GlobTrek',
+    category: 'Web',
+    categoryLabel: 'Web Application',
+    description:
+      'A PHP and MySQL-powered travel web application with dynamic content management and responsive UI, demonstrating server-side web development fundamentals.',
+    longDescription:
+      'GlobTrek is a travel-focused web application built using PHP and MySQL for the backend, with HTML, CSS, and JavaScript for the frontend. Demonstrates solid fundamentals in server-rendered web development.',
+    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    features: [
+      'Dynamic content with PHP & MySQL',
+      'Responsive frontend design',
+      'CRUD data management',
+      'Server-side rendered pages',
+    ],
+    github: 'https://github.com/sasindusachintha',
+    demo: null,
+    highlight: false,
+    icon: '✈️',
+    accentColor: '#34d399',
+    filterTags: ['Web'],
+  },
+  {
+    id: 6,
+    title: 'Sweet Cupcake',
+    category: 'Web',
+    categoryLabel: 'Web Application',
+    description:
+      'A web-based cupcake business storefront showcasing frontend development skills with clean UI design, product presentation, and interactive elements.',
+    longDescription:
+      'Sweet Cupcake demonstrates frontend development fundamentals — semantic HTML, custom CSS styling, and vanilla JavaScript interactivity — applied to a real-world small business scenario.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    features: [
+      'Clean, visually appealing product UI',
+      'Responsive layout design',
+      'Interactive elements with vanilla JS',
+      'Semantic HTML structure',
+    ],
+    github: 'https://github.com/sasindusachintha',
+    demo: null,
+    highlight: false,
+    icon: '🧁',
+    accentColor: '#f472b6',
+    filterTags: ['Web'],
+  },
+];
+
+export const filterOptions = ['All', 'Full Stack', 'AI / ML', 'Mobile', 'Web', 'Computer Vision'];
