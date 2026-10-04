@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, MapPin, Code2, Layers, Brain, Database, Smartphone } from 'lucide-react';
+import { GraduationCap, MapPin, Code2, Layers, Brain, Database, Smartphone, Download } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import { useReveal } from '../hooks/useReveal';
 
@@ -126,6 +126,19 @@ export default function About() {
 
                 {/* Social links */}
                 <div className="mt-6 pt-4 flex gap-3" style={{ borderTop: '1px solid var(--color-border)' }}>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1Mc0JNyG-V66R0NaD4Lk35MG6CCG1UilX"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-semibold transition-all duration-200"
+                    style={{ background: 'rgba(99,102,241,0.12)', color: 'var(--color-primary-light)', border: '1px solid rgba(99,102,241,0.3)' }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(99,102,241,0.22)'; e.currentTarget.style.borderColor = 'rgba(99,102,241,0.6)'; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(99,102,241,0.12)'; e.currentTarget.style.borderColor = 'rgba(99,102,241,0.3)'; }}
+                    aria-label="Download CV"
+                  >
+                    <Download size={13} strokeWidth={2.5} />
+                    CV
+                  </a>
                   <a
                     href="https://github.com/sasindusachintha"
                     target="_blank"
