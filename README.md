@@ -1,4 +1,4 @@
-# K. Sasindu Sachintha Bandara — Personal Portfolio
+# K. Sasindu Sachintha Bandara - Personal Portfolio
 
 > Personal portfolio website of K. Sasindu Sachintha Bandara, an undergraduate Software Engineering student from Sri Lanka.
 
