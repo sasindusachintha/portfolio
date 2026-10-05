@@ -5,7 +5,7 @@
 ## 🚀 Tech Stack
 
 - **React** (Vite).
-- **Tailwind CSS v4**
+- **Tailwind CSS v4**.
 - **Lucide React** icons
 - **Vanilla JS** animations (IntersectionObserver)
 
