@@ -89,7 +89,7 @@ npm run deploy
 
 ## 🌐 Deploy to Netlify
 
-1. Run `npm run build`
+1. Run `npm run build`.
 2. Drag the `dist/` folder into [Netlify Drop](https://app.netlify.com/drop)
 
 Or connect your GitHub repo in Netlify dashboard with:
