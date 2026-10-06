@@ -7,7 +7,7 @@
 - **React** (Vite).
 - **Tailwind CSS v4**.
 - **Lucide React** icons.
-- **Vanilla JS** animations (IntersectionObserver)
+- **Vanilla JS** animations (IntersectionObserver).
 
 ## 📦 Getting Started
 
