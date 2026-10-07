@@ -109,7 +109,7 @@ git push -u origin main
 
 ## ✅ Sections
 
-- Home / Hero
+- Home / Hero.
 - About
 - Skills
 - Projects (with filter: All / Full Stack / AI ML / Mobile / Web / Computer Vision)
