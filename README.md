@@ -94,7 +94,7 @@ npm run deploy
 
 Or connect your GitHub repo in Netlify dashboard with:
 - Build command: `npm run build`.
-- Publish directory: `dist`
+- Publish directory: `dist`.
 
 ## 📝 Git Commands
 
